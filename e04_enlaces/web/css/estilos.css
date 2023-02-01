@@ -1,0 +1,320 @@
+/* Fuentes */
+
+
+@import url('https://fonts.cdnfonts.com/css/warownia');
+
+@font-face {
+    font-family: BadBunny;
+    src: url(../fonts/againts.otf);
+}
+
+/* Hoja de estilos única para todas las páginas */
+
+* {
+    margin: 0px;
+}
+
+body {
+    width: 800px;
+    margin: auto;
+    background-image: url("../img/fondo_home.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+/* home.html */
+
+#contenedor {
+    background-color: #ad5c5c;
+    border-left: 10px solid whitesmoke;
+    border-right: 10px solid whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#titulo {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-family: BadBunny;
+    background-color: whitesmoke;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#imagen_portada {
+    text-align: center;
+}
+
+#imagen_portada img {
+    width: 580px;
+    height: 330px;
+    margin-bottom: 30px;
+    border: 10px solid whitesmoke;
+}
+
+#presentacion {
+    margin-right: 90px;
+    margin-left: 90px;
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+#presentacion h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+#presentacion p {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+#informacion {
+    margin-right: 90px;
+    margin-left: 90px;
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Helvetica, Verdana, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.discografia {
+    list-style-type: none;
+    margin-left: -20px;
+}
+
+.redessociales {
+    list-style-type: none;
+    margin-left: -20px;
+}
+
+#informacion h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+#informacion li {
+    font-family: Helvetica, Verdana, sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+span {
+    font-size: 15px;
+}
+
+#informacion a {
+    justify-content: center;
+}
+
+#informacion li img {
+    float: left;
+    width: 60px;
+    margin: 0 15px 0 0;
+}
+
+.album {
+    padding: 10px;
+    overflow: auto;
+    margin-left: -20px;
+    margin-right: 60px;
+}
+
+.album:hover {
+    background: rgb(187, 186, 186);
+    cursor: pointer;
+}
+
+.redes {
+    padding: 10px;
+    overflow: auto;
+    margin-left: -20px;
+    margin-right: 60px;
+}
+
+.redes:hover {
+    background: rgb(187, 186, 186);
+    cursor: pointer;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7c4242;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #4b2929;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+/* Principal.html */
+
+#titulo_principal {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-family: Warownia;
+    background-color: whitesmoke;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#titulo_principal img {
+    float: left;
+    width: 110px;
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+#titulo_principal img:hover {
+    transform: scale(1.15);
+}
+
+#titulo_principal h1 {
+    font-family: Warownia;
+    font-size: 80px;
+    padding-left: 200px;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 19px;
+    text-decoration: none;
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+#menu li a:hover {
+    background-color: rgb(170, 170, 170);
+}
+
+.fondocanciones {
+    margin-right: 90px;
+    margin-left: 90px;
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Helvetica, Verdana, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.bloquecanciones {
+    margin: 70px 10px 30px 10px;
+    padding: 20px 10px 20px 10px;
+    background-color: rgb(226, 226, 226);
+    font-family: Helvetica, Verdana, sans-serif;
+    border-radius: 10px;
+}
+
+.fondocanciones img {
+    float: left;
+    width: 150px;
+    margin: 0 15px 0 10px;
+    padding-bottom: 0px;
+}
+
+.fondocanciones img:hover {
+    transform: scale(1.05);
+    border: 1px black;
+    border-style: solid;
+    box-shadow: 0 0 10px black;
+}
+
+.descarga img {
+    float: left;
+    margin-left: -10px;
+}
+
+.descarga img:hover {
+    transform: scale(1.05);
+    border: 0;
+    box-shadow: 0 0 0;
+}
+
+.fondocanciones h2 {
+    padding-top: 10px;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.fondocanciones p {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.fondocanciones ol {
+    padding-top: 10px;
+}
+
+.fondocanciones ol li {
+    padding-bottom: 10px;
+    list-style-position: inside;
+    text-align: left;
+}
+
+.fondocanciones ol li p {
+    font-size: 13px;
+}
+
+.lista {
+    padding: 10px;
+    overflow: auto;
+    margin-left: -20px;
+    margin-right: 20px;
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+.lista:hover {
+    background: rgb(148, 148, 148);
+    border-radius: 10px;
+}
